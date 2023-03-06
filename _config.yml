@@ -45,7 +45,7 @@ relative_link: false
 future: true
 highlight:
   enable: true
-  line_number: true
+  line_number: false
   auto_detect: false
   tab_replace: ''
   wrap: true
@@ -104,7 +104,7 @@ theme: butterfly
 deploy:
   type: git
   repo: git@github.com:nycai/nycai.github.io.git
-  branch: main
+  branch: master
 menu:
   主页: / || fas fa-home
   博文 || fa fa-graduation-cap:
